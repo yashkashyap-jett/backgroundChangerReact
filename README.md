@@ -1,12 +1,76 @@
-# React + Vite
+# 🎨 Color Changer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Color Changer** built with **React**. This app allows users to change the background color of the screen with a single click, creating a visually dynamic experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖱️ One-click background color change  
+- 🎨 Random color generation  
+- 💡 Minimal and clean user interface  
+- ⚛️ Built with modern React practices (Hooks)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Preview
+
+> Simple UI where users can:
+> - Click a button
+> - Instantly see the background color change
+> - Enjoy experimenting with different colors
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React (with Hooks)
+- 💅 Tailwind CSS (optional — based on your usage)
+- 🎲 JavaScript logic for random color generation
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── App.jsx            # Main app component
+├── ColorChanger.jsx   # Core logic for changing background color
+└── index.css          # Styling (Tailwind or custom)
+```
+
+---
+
+## 📦 How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/color-changer.git
+   cd color-changer
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser (if using Vite).
+
+---
+
+## 🙌 Acknowledgments
+
+- React Community
+- Open-source contributors who make learning fun
+
+---
+
+## 🧑‍💻 Author
+
+Built with ❤️ by **Yash Kashyap**
